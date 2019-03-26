@@ -146,7 +146,9 @@ time {
 ==========*/
 
 .body2 {
+    display: block;
     margin-left: 15rem;
+    margin-top: 3rem;
     grid-area: body2;
 }
 
@@ -160,7 +162,6 @@ time {
                             "article article";
     grid-column-gap: 20px;
     grid-row-gap: 20px;
-    /*margin-top: 3rem;*/
 }
 
 .title {
@@ -220,9 +221,10 @@ time {
 /* BODY3
 ==========*/
 .body3 {
+    display: block;
     grid-area: body3;
     border: 1px solid black;
-    /*margin-top: 3rem;*/
+    margin-top: 3rem;
     margin-right: 10rem;
 }
 
