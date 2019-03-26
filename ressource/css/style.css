@@ -24,7 +24,8 @@
                             "logo logo"
                             "navbar navbar"
                             "body1 body1"
-                            "body2 body3";
+                            "body2 body3"
+                            "footer footer";
 	grid-row-gap: 15px;
     grid-column-gap: 20px;
 }
@@ -252,7 +253,7 @@ time {
 
 .footer {
     background-color: #333;
-    height: 100%;
+    background-size: cover;
 }
 
 .footer p, .footer a {
