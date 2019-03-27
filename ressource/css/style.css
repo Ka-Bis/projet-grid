@@ -18,7 +18,7 @@
 ==========*/
 .grid-container {
 	display: grid;
-	grid-template: 20% 15% 2fr 4fr 10%/ 2fr 1fr;
+	grid-template: 20% 15% 1fr auto 10%/ 2fr 1fr;
 /*    grid-template: 20% 2fr 4fr/ 2fr 1fr;*/
     grid-template-areas: 
                             "logo logo"
