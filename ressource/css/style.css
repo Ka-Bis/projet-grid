@@ -18,7 +18,7 @@
 ==========*/
 .grid-container {
 	display: grid;
-	grid-template: 20% 15% 2fr 4fr/ 2fr 1fr;
+	grid-template: 20% 15% 2fr 4fr 10%/ 2fr 1fr;
 /*    grid-template: 20% 2fr 4fr/ 2fr 1fr;*/
     grid-template-areas: 
                             "logo logo"
@@ -254,6 +254,9 @@ time {
 .footer {
     background-color: #333;
     background-size: cover;
+    grid-area: footer;
+    grid-row: 4/ 5;
+    grid-column: 1/span 2
 }
 
 .footer p, .footer a {
@@ -274,7 +277,8 @@ time {
                                 "navbar"
                                 "body1"
                                 "body2"
-                                "body3";
+                                "body3"
+                                "footer";
     }
     .grid-container-body1 {
         grid-template-columns: 1 fr;
